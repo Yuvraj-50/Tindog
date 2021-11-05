@@ -1,0 +1,192 @@
+body{
+    font-family: 'montserrat';
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#title{
+    background-color: rgb(184, 238, 206);
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 10%;
+}
+
+/* navigatin brand */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+
+
+
+/* download-buttn */
+.download-button{
+    margin: 5% 2% 5% 5% ;
+}
+
+/* title-image */
+.title-image{
+        width: 60%;
+        transform: rotate(25deg);
+        
+       
+}
+
+/* features */
+
+#features{
+    background-color: white;
+    margin:7% 0;
+    position: relative;    
+}
+.features-title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.icon{
+    color: rgb(184, 238, 206);
+}
+.icon:hover{
+    color: rgb(233, 61, 61);
+}
+
+.features-para{
+    color: #8f8f8f;
+    text-align: center;
+    padding: 0 10%;
+    font-family: "ubuntu";
+    font-weight: lighter;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: rgb(167, 241, 197);
+    
+    text-align: center;
+}
+
+.testimonials-tittle{
+    font-family: "montserrat-bold";
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: rgb(167, 241, 197);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing */
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-tittle{
+    font-family: 'Montserrat-bold';
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.pricing-tittle2{
+    font-family: 'Montserrat-bold';
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.pricing-para, .pricing-card-para{
+    color: rgb(172, 172, 172);
+    font-family: 'ubuntu-bold';
+    font-size: 1.5rem;
+
+}
+
+.pricing-btn{
+
+    padding: 2% 30%;
+    margin-bottom: 1rem;
+}
+.pricing-coloum{
+    padding: 3% 2%;
+}
+
+
+
+
+/* call to action */
+
+#cta{
+    background-color: rgb(167, 241, 197);
+    text-align: center;
+    padding: 7% 15%;
+
+}
+.cta-tittle{
+    font-family: 'Montserrat-bold';
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.footer-text{
+    padding: 0 2%;
+}
+
+
+@media (max-width:1028px) {
+    .title-image{
+        
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
